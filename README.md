@@ -32,13 +32,23 @@
 
 ![GET](https://github.com/user-attachments/assets/dc981ae3-338e-4f72-a4fa-dd18a8c85df8)
 
++ A data de nascimento é retornada no formato: mm/dd/yyyy
+
 ## Inserindo um Gato:
 
 ### Para inserir um gato novo, deve-se enviar uma requisição utilizando o método POST, enviando todos os dados do gato no seguinte formato através do body:
 
-![POST](https://github.com/user-attachments/assets/f8d87228-30bc-4a69-9889-2f23751f192f)
+![POST](https://github.com/user-attachments/assets/af4bc23e-6c39-4829-b34b-393f2037d390)
 
-### + Não é necessário informar o ID_Gato, pois essa informação é adicionada automaticamente através de auto incremento no banco de dados.
-### + A data de nascimento deve estar no formato: yyyy-mm-dd
++ Não é necessário informar o ID_Gato, pois essa informação é adicionada automaticamente através de auto incremento no banco de dados.
++ A data de nascimento deve estar no formato: yyyy-mm-dd
+
+## Editando um Gato
+
+### Para editar um gato ja existente, deve-se enviar uma requisição utilizando o método PUT, enviando o ID do gato previamente cadastrado e todos os novos dados do gato, estejam eles modificados ou não, no seguinte formato através do body: 
+
+![PUT](https://github.com/user-attachments/assets/3d20dd4c-13f5-4c6e-bf95-66cafb725dae)
+
++ A data de nascimento deve estar no formato: yyyy-mm-dd
 
 
