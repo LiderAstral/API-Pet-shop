@@ -1,0 +1,6 @@
+@API_Petshop_HostAddress = http://localhost:5104
+
+GET {{API_Petshop_HostAddress}}
+Accept: application/json
+
+###
