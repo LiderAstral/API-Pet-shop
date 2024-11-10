@@ -12,14 +12,14 @@
 + Nascimento - string
 + Temperamento - string
   
-## O projeto foi feito inteiramente em C#, utilizando ASP.NET 
+### O projeto foi feito inteiramente em C#, utilizando ASP.NET 
 
 ## Como utilizar a API:
 
 ### A API está hospedada no seguinte domínio: https://liderastral.azurewebsites.net/api/Values
 ### Sua documentação se encontra no seguinte domínio: https://liderastral.azurewebsites.net/swagger/index.html
 
-### Suas funcionalidades incluem
+### Suas funcionalidades incluem:
 
 1) Consulta de todos os gatos armazenados no banco de dados
 2) Inserção de um gato no banco de dados
@@ -45,10 +45,21 @@
 
 ## Editando um Gato
 
-### Para editar um gato ja existente, deve-se enviar uma requisição utilizando o método PUT, enviando o ID do gato previamente cadastrado e todos os novos dados do gato, estejam eles modificados ou não, no seguinte formato através do body: 
+### Para editar um gato já existente, deve-se enviar uma requisição utilizando o método PUT, enviando o ID do gato previamente cadastrado e todos os novos dados do gato, estejam eles modificados ou não, no seguinte formato através do body: 
 
 ![PUT](https://github.com/user-attachments/assets/3d20dd4c-13f5-4c6e-bf95-66cafb725dae)
 
 + A data de nascimento deve estar no formato: yyyy-mm-dd
+
+## Excluindo um Gato
+
+### Para excluir um gato já existente, deve-se enviar uma requisição utilizando o método DELETE, enviando apenas o ID do gato previamente cadastrado em formato inteiro, através do body:
+
+![DELETE](https://github.com/user-attachments/assets/2d5588f4-1d31-4571-9fcb-dc6183850693)
+
+## Limitações da API
+
+
+
 
 
