@@ -16,6 +16,6 @@
 
 ## Como utilizar a API:
 
-A API está hospedada no seguinte domínio: <a href="https://liderastral.azurewebsites.net/api/Values"></a>
+A API está hospedada no seguinte domínio: https://liderastral.azurewebsites.net/api/Values
 1) 
 <center><img src=""></center>
