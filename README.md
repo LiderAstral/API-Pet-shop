@@ -16,6 +16,18 @@
 
 ## Como utilizar a API:
 
-A API está hospedada no seguinte domínio: https://liderastral.azurewebsites.net/api/Values
-1) 
-<center><img src=""></center>
+### A API está hospedada no seguinte domínio: https://liderastral.azurewebsites.net/api/Values
+### Sua documentação se encontra no seguinte domínio: https://liderastral.azurewebsites.net/swagger/index.html
+
+### Suas funcionalidades incluem
+
+1) Consulta de todos os gatos armazenados no banco de dados
+2) Inserção de um gato no banco de dados
+3) Alteração de um gato ja incluso no banco de dados
+4) Exclusão física de um gato do banco de dados
+
+## Consultando os Gatos:
+
+### Para receber a lista de gatos cadastrados, deve-se enviar uma requisição utilizando o método GET, sem parâmetros adicionais. Seu retorno será um JSON com a lista dos respectivos gatos:
+
+![GET](https://github.com/user-attachments/assets/dc981ae3-338e-4f72-a4fa-dd18a8c85df8)
