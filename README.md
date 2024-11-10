@@ -14,7 +14,7 @@
   
 ### O projeto foi feito inteiramente em C#, utilizando ASP.NET 
 
-## Como utilizar a API:
+## Como utilizar a API
 
 ### A API está hospedada no seguinte domínio: https://liderastral.azurewebsites.net/api/Values
 ### Sua documentação se encontra no seguinte domínio: https://liderastral.azurewebsites.net/swagger/index.html
@@ -26,7 +26,7 @@
 3) Alteração de um gato ja incluso no banco de dados
 4) Exclusão física de um gato do banco de dados
 
-## Consultando os Gatos:
+## Consultando os Gatos
 
 ### Para receber a lista de gatos cadastrados, deve-se enviar uma requisição utilizando o método GET, sem parâmetros adicionais. Seu retorno será um JSON com a lista dos respectivos gatos:
 
@@ -34,7 +34,7 @@
 
 + A data de nascimento é retornada no formato: mm/dd/yyyy
 
-## Inserindo um Gato:
+## Inserindo um Gato
 
 ### Para inserir um gato novo, deve-se enviar uma requisição utilizando o método POST, enviando todos os dados do gato no seguinte formato através do body:
 
@@ -59,7 +59,9 @@
 
 ## Limitações da API
 
-
++ Por ter sido criada apenas para a etapa de teste prático para o processo seletivo da Ploomes e em um curto período de tempo, algumas funcionalidades importantes, como autenticação, tratamento de exceções e mensagens de retorno para o usuário não foram implementadas.
++ O formato de entrada e saída das datas de nascimento não está padronizado
++ A API e o banco de dados foram armazenados no plano gratuito da Azure, que apesar de muito bom, pode acabar afetando seu desempenho e sua disponibilidade a longo prazo.
 
 
 
