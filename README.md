@@ -8,7 +8,7 @@
 + Nome - string
 + Cores - string
 + Tamanho - string
-+ Peso - double
++ Peso - double (Armazenado em quilos)
 + Nascimento - string
 + Temperamento - string
   
@@ -31,3 +31,14 @@
 ### Para receber a lista de gatos cadastrados, deve-se enviar uma requisição utilizando o método GET, sem parâmetros adicionais. Seu retorno será um JSON com a lista dos respectivos gatos:
 
 ![GET](https://github.com/user-attachments/assets/dc981ae3-338e-4f72-a4fa-dd18a8c85df8)
+
+## Inserindo um Gato:
+
+### Para inserir um gato novo, deve-se enviar uma requisição utilizando o método POST, enviando todos os dados do gato no seguinte formato através do body:
+
+![POST](https://github.com/user-attachments/assets/f8d87228-30bc-4a69-9889-2f23751f192f)
+
+### + Não é necessário informar o ID_Gato, pois essa informação é adicionada automaticamente através de auto incremento no banco de dados.
+### + A data de nascimento deve estar no formato: yyyy-mm-dd
+
+
